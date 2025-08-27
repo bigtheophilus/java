@@ -17,6 +17,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - run: pwd
-    - run: sudo cp /home/ubuntu/actions-runner/_work/java/java/src/main/java/com/example/demo/* /var/www/html
+    - run: sudo cp /home/ubuntu/actions-runner/_work/java/java/* /var/www/html
 
    
